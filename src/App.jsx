@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import LoadingLP from './components/Loader'
+import NavBar from './components/NavBar'
 
 function App() {
 
   return (
     <>
-    
+      <NavBar></NavBar>
     </>
   )
 }
