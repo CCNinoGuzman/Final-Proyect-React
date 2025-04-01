@@ -6,7 +6,7 @@ import './NavBar.css'
 
 let NavBar = ()=>{
     return(   
-      <div classNameName="p-2">
+      <header classNameName="p-2">
         <nav className="navbar navbar-expand-lg bg-body-tertiary rounded rounded-4">
   <div className="container-fluid">
     <a className="navbar-brand" href="#"><img src={logo} alt="" /></a>
@@ -28,7 +28,7 @@ let NavBar = ()=>{
     </div>
   </div>
 </nav>
-      </div>
+      </header>
     )
 }
 
